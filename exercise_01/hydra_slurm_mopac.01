@@ -4,8 +4,9 @@
 
 ##  partition (queue)
 ##SBATCH -p cascade
-#SBATCH -p knl
+##SBATCH -p knl
 ##SBATCH -p flnr-ice
+#SBATCH -p flnr-sod
 ##SBATCH -p slo-ice
 
 ## max. execution time
@@ -21,10 +22,11 @@
 #SBATCH -N 1 -n 12
 #SBATCH  --sockets-per-node=1
 
+# logfile
 #SBATCH -o log_slurm_job.%j.%N.std_out
 
-## E-mail
-#SBATCH --mail-user=milias@theor.jinr.ru
+## E-mail, modify for yourself
+##SBATCH --mail-user=milias@theor.jinr.ru
 #SBATCH --mail-type=ALL
 
 echo -e "\nRunning on host `hostname`"
@@ -82,7 +84,7 @@ cd $SLURM_SUBMIT_DIR
 MOPACDIR=/lustre/home/user/m/milias/work/software/mopac/git_cloned/install/bin
 export LD_LIBRARY_PATH=/lustre/home/user/m/milias/work/software/mopac/git_cloned/install/lib64:$LD_LIBRARY_PATH
 
-echo -e "\n\n ldd $MOPACDIR/mopac :"
+echo -e "\n\n Check of linked libraries, ldd $MOPACDIR/mopac :"
 ldd $MOPACDIR/mopac 
 
 #project=1IYT_scf_pm7water_addh
@@ -93,6 +95,6 @@ project=1IYT_geopt_pm7water
 echo -e "\n\n running: $MOPACDIR/mopac $project.mop  at \c"; date; echo
 $MOPACDIR/mopac $project.mop
 
-echo -e "\n Finished at \c"; date
+echo -e "\n\n Job finished at \c"; date
 
 exit

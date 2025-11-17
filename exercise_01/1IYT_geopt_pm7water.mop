@@ -1,2 +1,2 @@
- AUX LARGE  CHARGE=0 SINGLET  PM7  EPS=80.1  HTML GEO_DAT="geometry_1IYT.arc" PDBOUT CYCLES=20  RHF
+ AUX LARGE  CHARGE=0 SINGLET  PM7  EPS=80.1  HTML GEO_DAT="geometry_1IYT.arc" PDBOUT CYCLES=10
 peptide 1IYT                                           
