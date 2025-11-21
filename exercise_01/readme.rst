@@ -2,6 +2,12 @@
 Exercise 01
 ===========
 
+MOPAC
+~~~~~
+This exercise is utilizing the MOPAC (Molecular Orbital PACkage) semiempirical quantum chemistry program.
+
+See http://openmopac.net/.  
+
 1IYT
 ~~~~
 Simple, step restricted geometry optimization of the 1IYT oligopeptide (https://www.rcsb.org/structure/1IYT).
