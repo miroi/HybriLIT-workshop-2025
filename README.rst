@@ -11,3 +11,7 @@ Exercises cover free-of-charge computational molecular physics programs MOPAC, O
 We recommend users to have programs Avogadro2 (https://two.avogadro.cc/) 
 and wxMaxMolPlt (https://brettbode.github.io/wxmacmolplt/MacMolPlt_Manual.html) installed on their personal computers.
 
+Computations on Govorun
+-------------------------
+
+We recommend users to have account on the Govorun supercoputer and minimum experience of launching jobs via the SLURM system.
