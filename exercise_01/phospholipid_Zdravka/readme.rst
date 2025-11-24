@@ -6,9 +6,15 @@ Compute and visualise vibrational frequencies of the SOPC phopholipid.
 
 MOPAC semiemprirical program is utilized for geometry optimization and 
 frequency calculations.
-Before that quick preoptimization and MOPAC input preparation of SOPC is achieved via Avogadro2 force-field method.
+
+Before that, quick preoptimization and MOPAC input preparation of SOPC is achieved via Avogadro2 force-field method.
 
 Afterwards, frequencies are displayed from the aux file with the Avogadro2 program.
+
+In mopac/vibr_frequencies directory we have the prepared input files. 
+The entering geometry "sopc_geom_pm7.arc" is from the previous MOPAC run.
+
+The frequencies calculation job takes around 10 minutes on 12 OpenMP threads.
 
 resources
 ~~~~~~~~~
