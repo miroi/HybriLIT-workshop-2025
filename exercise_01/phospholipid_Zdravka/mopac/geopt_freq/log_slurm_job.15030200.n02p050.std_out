@@ -1,0 +1,69 @@
+
+Running on host n02p050
+Time is Sat Nov 22 00:19:07 MSK 2025 
+
+
+Job user is SLURM_JOB_USER= milias
+User job SLURM_JOB_NAME=MOPAC has assigned ID SLURM_JOBID=15030200
+This job was submitted from the computer SLURM_SUBMIT_HOST=space02.hydra.local
+and from the home directory SLURM_SUBMIT_DIR:
+/zfs/scratch/HybriLITWorkshop2025/milias/projects/open-collection/theoretical_chemistry/projects/zdravka_SOPC/mopac/geopt_freq
+Job is running on the cluster compute node: SLURM_CLUSTER_NAME=gvr
+and is employing SLURM_JOB_NUM_NODES=1 node/nodes:
+SLURM_JOB_NODELIST = n02p050
+Job partition is SLURM_JOB_PARTITION=flnr-sod 
+
+Number of allocated CPUs on each single node, SLURM_CPUS_ON_NODE=12 .
+Number of all reserved threads over ALL nodes, SLURM_NTASKS=12 .
+Job has reserved memory per node, SLURM_MEM_PER_NODE=32768 MB of memory
+The node's CPU model name	: Intel(R) Xeon(R) Platinum 8268 CPU @ 2.90GHz
+BTW, this node has total 96 CPUs available for an EXCLUSIVE job.
+Based on reserved memory, this node got 12 CPUs allocated for SLURM calculations.
+This job wants SLURM_NTASKS=12 threads . 
+
+
+ The total memory at the node (in GB)
+              total        used        free      shared  buff/cache   available
+Mem:            187          36          79           0          72         150
+Swap:             3           0           3
+Total:          191          36          82
+
+
+
+
+ loaded modules:
+Currently Loaded Modulefiles:
+  1) GVR/v1.0-1     2) intel/oneapi
+
+
+ Check of linked libraries, ldd /lustre/home/user/m/milias/work/software/mopac/git_cloned/install/bin/mopac :
+	linux-vdso.so.1 =>  (0x00007fffb05f4000)
+	libmopac.so.2 => /lustre/home/user/m/milias/work/software/mopac/git_cloned/install/lib64/libmopac.so.2 (0x00002b6f35ef8000)
+	libmkl_intel_lp64.so.1 => /cvmfs/hybrilit.jinr.ru/sw/slc7_x86-64/intel/oneapi/mkl/latest/lib/intel64/libmkl_intel_lp64.so.1 (0x00002b6f3aa76000)
+	libmkl_intel_thread.so.1 => /cvmfs/hybrilit.jinr.ru/sw/slc7_x86-64/intel/oneapi/mkl/latest/lib/intel64/libmkl_intel_thread.so.1 (0x00002b6f3b615000)
+	libmkl_core.so.1 => /cvmfs/hybrilit.jinr.ru/sw/slc7_x86-64/intel/oneapi/mkl/latest/lib/intel64/libmkl_core.so.1 (0x00002b6f3ed64000)
+	libiomp5.so => /cvmfs/hybrilit.jinr.ru/sw/slc7_x86-64/intel/oneapi/compiler/latest/linux/compiler/lib/intel64_lin/libiomp5.so (0x00002b6f431d2000)
+	libpthread.so.0 => /lib64/libpthread.so.0 (0x00002b6f435f2000)
+	libm.so.6 => /lib64/libm.so.6 (0x00002b6f4380e000)
+	libdl.so.2 => /lib64/libdl.so.2 (0x00002b6f43b10000)
+	libc.so.6 => /lib64/libc.so.6 (0x00002b6f43d14000)
+	/lib64/ld-linux-x86-64.so.2 (0x00002b6f35cd4000)
+	libgcc_s.so.1 => /lib64/libgcc_s.so.1 (0x00002b6f440e2000)
+	libifport.so.5 => /cvmfs/hybrilit.jinr.ru/sw/slc7_x86-64/intel/oneapi/compiler/latest/linux/compiler/lib/intel64_lin/libifport.so.5 (0x00002b6f442f8000)
+	libifcoremt.so.5 => /cvmfs/hybrilit.jinr.ru/sw/slc7_x86-64/intel/oneapi/compiler/latest/linux/compiler/lib/intel64_lin/libifcoremt.so.5 (0x00002b6f35d0b000)
+	libimf.so => /cvmfs/hybrilit.jinr.ru/sw/slc7_x86-64/intel/oneapi/compiler/latest/linux/compiler/lib/intel64_lin/libimf.so (0x00002b6f44526000)
+	libsvml.so => /cvmfs/hybrilit.jinr.ru/sw/slc7_x86-64/intel/oneapi/compiler/latest/linux/compiler/lib/intel64_lin/libsvml.so (0x00002b6f44c57000)
+	libintlc.so.5 => /cvmfs/hybrilit.jinr.ru/sw/slc7_x86-64/intel/oneapi/compiler/latest/linux/compiler/lib/intel64_lin/libintlc.so.5 (0x00002b6f46cea000)
+	librt.so.1 => /lib64/librt.so.1 (0x00002b6f46f62000)
+
+
+ running: /lustre/home/user/m/milias/work/software/mopac/git_cloned/install/bin/mopac sopc.geomopt-freq_mp7.mop  at Sat Nov 22 00:19:07 MSK 2025
+
+          Sat Nov 22 00:19:07 2025  Job: 'sopc.geomopt-freq_mp7' started successfully
+
+
+          MOPAC Job: "sopc.geomopt-freq_mp7.mop" ended normally on Nov 22, 2025, at 00:28.
+
+
+
+ Job finished at Sat Nov 22 00:28:12 MSK 2025
