@@ -11,7 +11,7 @@ Before that, quick preoptimization and MOPAC input preparation of SOPC is achiev
 
 Afterwards, frequencies are displayed from the aux file with the Avogadro2 program.
 
-In mopac/vibr_frequencies directory we have the prepared input files. 
+In the vibr_frequencies_mopac/ directory we have the prepared input files. 
 The entering geometry "sopc_geom_pm7.arc" is from the previous MOPAC run.
 
 The frequencies calculation job takes around 10 minutes on 12 OpenMP threads.
@@ -26,6 +26,6 @@ also in https://molview.org/?cid=24778825
 also https://lipidbook.org/lipid/show/id/28.html
      https://www.lipidmaps.org/databases/lmsd/LMGP01010761
 
-to fix minor problem: 	
+todo: fix minor problem of different molecular formula
 C44H86NO8P(pubchem) or C44H85NO8P (molview)
 
