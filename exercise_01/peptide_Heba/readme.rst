@@ -5,20 +5,20 @@ Exercise 01
 MOPAC
 ~~~~~
 This exercise is utilizing the MOPAC (Molecular Orbital PACkage) semiempirical quantum chemistry program.
-
 See http://openmopac.net/.  
 
 1IYT
 ~~~~
-Simple, step restricted geometry optimization of the 1IYT oligopeptide (https://www.rcsb.org/structure/1IYT).
-This is the Alzheimer's disease amyloid beta-peptide (1-42).
+1IYT is the Alzheimer's disease amyloid beta-peptide, see https://www.rcsb.org/structure/1IYT
 
-MOPAC runs few geometry steps from the pre-optimized 1IYT structure. 
+This is simple, steps-restricted geometry optimization of the 1IYT peptide.
+MOPAC runs few geometry steps from its pre-optimized structure. 
+
+In this exercise, user can increase number of geometry cycles, or change the Hamiltonian.
 
 solvent effect
 ~~~~~~~~~~~~~~
-Program is utilizing the COSMO (Conductor-like Screening Model) method to approximate the effect of a solvent model surrounding the molecule.
-
+Program employs the Conductor-like Screening Model (COSMO) to approximate the effect of a solvent model surrounding the small peptide molecule.
 
 visualisation
 ~~~~~~~~~~~~~
