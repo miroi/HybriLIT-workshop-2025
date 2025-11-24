@@ -2,17 +2,21 @@
 Vitamin C with GAMESS-US
 ========================
 
+load file
+---------
 https://pubchem.ncbi.nlm.nih.gov/compound/54670067
 
-load Conformer3D_COMPOUND_CID_54670067.sdf into MacMolPlt
+load the file "Conformer3D_COMPOUND_CID_54670067.sdf  into MacMolPlt program.
 
-set computation params like DFT, STO-3G, single energy point/optimization 
+Then set computation params like DFT, STO-3G, single energy point/optimization.
 
 geometry optimization
-~~~~~~~~~~~~~~~~~~~~~
-geometry optimization did not converge for default N=20 geometry steps, but it is sufficient ...
-todo: less printout, add more steps
+---------------------
+Molecule geometry did not converge for default N=20 geometry steps, but it is sufficient ...
+(todo: less printout, add more steps)
 
+Windows run
+~~~~~~~~~~~
 C:\Users\Public\gamess-64\rungms.bat   vit_c.geopt_b3lyp_6-31.inp   2023.R1.intel  4 >  vit_c.geopt_b3lyp_6-31.n4_out
 
 Govorun run
