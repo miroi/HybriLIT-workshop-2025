@@ -6,7 +6,8 @@
 ##SBATCH -p cascade
 ##SBATCH -p knl
 ##SBATCH -p flnr-ice
-#SBATCH -p flnr-sod
+##SBATCH -p flnr-sod
+#SBATCH -p work-ice
 ##SBATCH -p slo-ice
 
 ## max. execution time

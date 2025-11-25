@@ -7,7 +7,9 @@
 ##SBATCH -p knl
 ##SBATCH -p flnr-ice
 ##SBATCH -p slo-ice
-#SBATCH -p flnr-sod
+##SBATCH -p flnr-sod
+#SBATCH -p work-ice
+
 
 ## max. execution time
 ##SBATCH -t 1-00:00:00
